@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>The Art Place</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>The Art Place</h1>
+      </div>
+      <form id="form">
+        <div class="radio">
+          <label>
+            <blockquote class="blockquote">
+              <h2 class="mb-0">"The temptation of saint Anthony"</h2>
+              <footer class="blockquote-footer">Salvador Dali</footer>
+            </blockquote>
+            <input type="radio" name="painting" value="Dali" checked>
+            <img src="https://emptyeasel.com/wp-content/uploads/2019/03/the-temptation-of-saint-anthony.jpg" alt="painting of Dali">
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <blockquote class="blockquote">
+              <h2 class="mb-0">"A Gathering of Ancient God of Food..."</h2>
+              <footer class="blockquote-footer">By Aya Takano</footer>
+            </blockquote>
+            <input type="radio" name="painting" value="Takano">
+            <img src="https://d32dm0rphc51dk.cloudfront.net/sfUBqx75vrL3oIBr_2_TNw/large.jpg" alt="painting of Aya Takano">
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <blockquote class="blockquote">
+              <h2 class="mb-0">"Two Fridas"</h2>
+              <footer class="blockquote-footer">Frida Kahlo</footer>
+            </blockquote>
+            <input type="radio" name="painting" value="Frida">
+            <img src="https://static01.nyt.com/images/2016/07/09/arts/nf-obits-kahlo-2/nf-obits-kahlo-2-videoLarge.jpg" alt="painting of frida">
+          </label>
+        </div>
+      
+      <div class="frame-choice">
+        <h3>Choose your Frame:</h3>
+          <select class="form-control" id="frame">
+            <option value="1">None</option>
+            <option value="2">Classic</option>
+            <option value="3">Rustic</option>
+            <option value="4">Modern</option>
+          </select>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
